@@ -22,6 +22,9 @@ Preview Video : https://youtu.be/MCHQgjdTLzU
 Credits/Dependencies
 A big thanks to Loaf Scripts for helping me and allowing me to take some parts of his old disabandoned code for reference
 
+Download K4MB1’s FIB Extended interior(free) It’s a bonus inside this topic:
+https://forum.cfx.re/t/release-paid-mlo-multiple-interiors-and-shells-for-housing-scripts/4757892
+
 
 Utku for datacrack minigame
 
