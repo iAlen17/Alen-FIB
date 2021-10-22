@@ -6,7 +6,7 @@ Preview : https://youtu.be/MCHQgjdTLzU
 A little FIB Heist Mission for QBCore 
 
 
-ESX can be found here : 
+ESX version can be found here :  [Alen-FIB](https://github.com/iAlen17/ESX-Alen-FIB)
 
 ![](images-preview/preview.png)
 
