@@ -26,7 +26,11 @@ Utku for datacrack minigame
 Dependencies 
 
 Memory Minigame : https://github.com/pushkart2/memorygame
+
+
 Keymaster Minigame : https://github.com/dsheedes/cd_keymaster
+
+
 Fingerprint Minigame : https://github.com/utkuali/Finger-Print-Hacking-Game
 
 
