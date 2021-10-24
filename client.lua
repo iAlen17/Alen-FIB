@@ -239,9 +239,6 @@ function NYIpl()
         RemoveIpl("prologue_m2_door") 
       end
 
-    RegisterCommand('nytest', function()
-        TriggerServerEvent("Fib_SV:PlayOnSourceTest", "done", 0.9)
-end, false)
 
       function SpawnGetAwayVehicle()
             coords = {x = 5353.5063, y = -5207.545, z = 82.773582, h = 2.1963837}
