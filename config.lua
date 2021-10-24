@@ -21,6 +21,8 @@ Config = {
         },
     },
 
+    
+    ['Webhook'] = '',--Your webhook link here
     ['Police'] = 'police',--Job Name
     ['PoliceVeh'] = 'police',--Vehicle Name(Police) 
     ['HeistVeh'] = 'bodhi2',--Vehicle Name( Robbers[North Yankton])
