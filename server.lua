@@ -2,7 +2,7 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
 discord = {
-    ['webhook'] = Config['Webhook'],
+    ['webhook'] = 'webhook',
     ['name'] = 'FIB Heist Logs',
     ['image'] = 'https://cdn.discordapp.com/attachments/774536621802389544/899986988386623498/logo.png'
 }
