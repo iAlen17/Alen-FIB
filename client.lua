@@ -56,95 +56,10 @@ local src = source
     SpawnPoliceVehicle()
 end) 
 
-Citizen.CreateThread(function()
-    AddRelationshipGroup('FIBHeist')
-
-    RequestModel(-1275859404)
-    fibpedone = CreatePed(30, -1275859404, 119.42137, -761.3185, 242.15206, 267.51391, true, false)
-    --CreatePed(30, fibpedone, 583.54, -3117.87, 19.00, 88.00, true, false)
-    SetPedArmour(fibpedone, 100)
-    SetPedAsEnemy(fibpedone, true)
-    SetPedRelationshipGroupHash(fibpedone, 'FIBHeist')
-    GiveWeaponToPed(fibpedone, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedone, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedone, 100)
-    SetPedDropsWeaponsWhenDead(fibpedone, false)
-    
-    fibpedtwo = CreatePed(30, -1275859404, 137.60064, -768.9351, 242.15213, 27.648406, true, false)
-    SetPedArmour(fibpedtwo, 100)
-    SetPedAsEnemy(fibpedtwo, true)
-    SetPedRelationshipGroupHash(fibpedtwo, 'FIBHeist')
-    GiveWeaponToPed(fibpedtwo, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedtwo, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedtwo, 100)
-    SetPedDropsWeaponsWhenDead(fibpedtwo, false)
-
-    fibpedthree = CreatePed(30, -1275859404, 128.74789, -761.6337, 242.15185, 226.68038, true, false)
-    SetPedArmour(fibpedthree, 100)
-    SetPedAsEnemy(fibpedthree, true)
-    SetPedRelationshipGroupHash(fibpedthree, 'FIBHeist')
-    GiveWeaponToPed(fibpedthree, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedthree, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedthree, 100)
-    SetPedDropsWeaponsWhenDead(fibpedthree, false)
-
-    fibpedfour = CreatePed(30, -1275859404, 124.17907, -764.8161, 242.15203, 260.66476, true, false)
-    SetPedArmour(fibpedfour, 100)
-    SetPedAsEnemy(fibpedfour, true)
-    SetPedRelationshipGroupHash(fibpedfour, 'FIBHeist')
-    GiveWeaponToPed(fibpedfour, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedfour, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedfour, 100)
-    SetPedDropsWeaponsWhenDead(fibpedfour, false)
-
-    fibpedfive = CreatePed(30, -1275859404, 121.53397, -757.9509, 242.15203, 210.10429, true, false)
-    SetPedArmour(fibpedfive, 100)
-    SetPedAsEnemy(fibpedfive, true)
-    SetPedRelationshipGroupHash(fibpedfive, 'FIBHeist')
-    GiveWeaponToPed(fibpedfive, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedfive, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedfive, 100)
-    SetPedDropsWeaponsWhenDead(fibpedfive, false)
-
-    fibpedsix = CreatePed(30, -1275859404, 113.91598, -753.3021, 242.15228, 214.78201, true, false)
-    SetPedArmour(fibpedsix, 100)
-    SetPedAsEnemy(fibpedsix, true)
-    SetPedRelationshipGroupHash(fibpedsix, 'FIBHeist')
-    GiveWeaponToPed(fibpedsix, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedsix, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedsix, 100)
-    SetPedDropsWeaponsWhenDead(fibpedsix, false)
-
-    fibpedseven = CreatePed(30, -1275859404, 114.08854, -740.7044, 242.15219, 198.01211, true, false)
-    SetPedArmour(fibpedseven, 0)
-    SetPedAsEnemy(fibpedseven, true)
-    SetPedRelationshipGroupHash(fibpedseven, 'FIBHeist')
-    GiveWeaponToPed(fibpedseven, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedseven, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedseven, 100)
-    SetPedDropsWeaponsWhenDead(fibpedseven, false)
-
-    fibpedeight = CreatePed(30, -1275859404, 121.72486, -739.1644, 242.15219, 155.41575, true, false)
-    SetPedArmour(fibpedeight, 100)
-    SetPedAsEnemy(fibpedeight, true)
-    SetPedRelationshipGroupHash(fibpedeight, 'FIBHeist')
-    GiveWeaponToPed(fibpedeight, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpedeight, GetPlayerPed(-1))
-    SetPedAccuracy(fibpedeight, 100)
-    SetPedDropsWeaponsWhenDead(fibpedeight, false)
-
-    fibpednine = CreatePed(30, -1275859404, 126.87366, -730.3227, 242.15197, 69.755676, true, false)
-    SetPedArmour(fibpednine, 100)
-    SetPedAsEnemy(fibpednine, true)
-    SetPedRelationshipGroupHash(fibpednine, 'FIBHeist')
-    GiveWeaponToPed(fibpednine, GetHashKey(Config['PedWeapon']), 250, false, true)
-    TaskCombatPed(fibpednine, GetPlayerPed(-1))
-    SetPedAccuracy(fibpednine, 100)
-    SetPedDropsWeaponsWhenDead(fibpednine, false)
-end)
 
 local NPC = { x = 5450.1015, y = -5205.519, z = 78.856681, rotation = 171.6372, NetworkSync = true}
 Citizen.CreateThread(function()
+    SpawnPeds()
   modelHash = GetHashKey("a_f_m_prolhost_01")
   RequestModel(modelHash)
   while not HasModelLoaded(modelHash) do
@@ -700,6 +615,7 @@ CreateThread(function()
                     end
                 end
             end)
+
             RegisterNetEvent('AlenFIB:LockStatus')
             AddEventHandler('AlenFIB:LockStatus', function(stat)
                 Locked = stat
@@ -726,6 +642,67 @@ CreateThread(function()
         end
     end)
 end)
+
+function SpawnPeds()
+    local ped = PlayerPedId()
+
+
+    SetPedRelationshipGroupHash(ped, GetHashKey('PLAYER'))
+    AddRelationshipGroup('GuardPeds')
+
+    for k, v in pairs(Config['AttackingPeds']['PedConfig']) do
+        loadModel(v['ped'])
+        FIBHeist['heistPeds'][k] = CreatePed(26, GetHashKey(v['ped']), v['pos'], v['heading'], true, true)
+        NetworkRegisterEntityAsNetworked(FIBHeist['heistPeds'][k])
+        networkID = NetworkGetNetworkIdFromEntity(FIBHeist['heistPeds'][k])
+        SetNetworkIdCanMigrate(networkID, true)
+        SetNetworkIdExistsOnAllMachines(networkID, true)
+        SetEntityAsMissionEntity(FIBHeist['heistPeds'][k])
+        SetPedRelationshipGroupHash(FIBHeist['heistPeds'][k], GetHashKey("GuardPeds"))
+        SetEntityVisible(FIBHeist['heistPeds'][k], true)
+        SetPedRandomComponentVariation(FIBHeist['heistPeds'][k], 0)
+        SetPedRandomProps(FIBHeist['heistPeds'][k])
+        if v['ped'] ~= 'a_f_m_prolhost_01' then
+            SetPedAccuracy(FIBHeist['heistPeds'][k], 50)
+            SetPedArmour(FIBHeist['heistPeds'][k], 100)
+            SetPedCanSwitchWeapon(FIBHeist['heistPeds'][k], true)
+            SetPedDropsWeaponsWhenDead(FIBHeist['heistPeds'][k], false)
+            SetPedFleeAttributes(FIBHeist['heistPeds'][k], 0, false)
+            GiveWeaponToPed(FIBHeist['heistPeds'][k], GetHashKey('WEAPON_PISTOL'), 255, false, false)
+            local random = math.random(1, 2)
+            if random == 2 then
+                TaskGuardCurrentPosition(FIBHeist['heistPeds'][k], 10.0, 10.0, 1)
+            end
+        else
+            loadAnimDict('missminuteman_1ig_2')
+            TaskPlayAnim(FIBHeist['heistPeds'][k], 'missminuteman_1ig_2', 'handsup_enter', 8.0, 8.0, -1, 50, 0, 0, 0, 0)
+            SetBlockingOfNonTemporaryEvents(FIBHeist['heistPeds'][k], true)
+        end
+    end
+
+    SetRelationshipBetweenGroups(0, GetHashKey("GuardPeds"), GetHashKey("GuardPeds"))
+	SetRelationshipBetweenGroups(5, GetHashKey("GuardPeds"), GetHashKey("PLAYER"))
+	SetRelationshipBetweenGroups(5, GetHashKey("PLAYER"), GetHashKey("GuardPeds"))
+end
+
+function loadAnimDict(dict)
+    while not HasAnimDictLoaded(dict) do
+        RequestAnimDict(dict)
+        Citizen.Wait(50)
+    end
+end
+
+function loadModel(model)
+    if type(model) == 'number' then
+        model = model
+    else
+        model = GetHashKey(model)
+    end
+    while not HasModelLoaded(model) do
+        RequestModel(model)
+        Citizen.Wait(0)
+    end
+end
 
 function TeleportPlayer()
     DoScreenFadeOut(2000)
