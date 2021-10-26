@@ -22,7 +22,6 @@ Config = {
     },
 
     
-    ['PedWeapon'] = 'WEAPON_APPISTOL',--Put the name of the weapon that you desire to be given to the FIB Securities
     ['Police'] = 'police',--Job Name
     ['PoliceVeh'] = 'police',--Vehicle Name(Police) 
     ['HeistVeh'] = 'bodhi2',--Vehicle Name( Robbers[North Yankton])
@@ -34,6 +33,19 @@ Config = {
    ['Cash'] = {
         ['Min'] = 25, -- minimum cash (for each pile)
         ['Max'] = 50, -- max cash (for each pile)
+    },
+    ['AttackingPeds'] = {
+        PedConfig = {
+            {pos = vector3(119.42137, -761.3185, 242.15206), heading = 267.51391, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(137.60064, -768.9351, 242.15213), heading = 27.648406, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(128.74789, -761.6337, 242.15185), heading = 226.68038, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(124.17907, -764.8161, 242.15203), heading = 260.66476, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(121.53397, -757.9509, 242.15203), heading = 210.10429, ped = 's_m_m_chemsec_01'}, --Add More Peds Over Here!
+            {pos = vector3(113.91598, -753.3021, 242.15228), heading = 214.78201, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(114.08854, -740.7044, 242.15219), heading = 198.01211, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(121.72486, -739.1644, 242.15219), heading = 155.41575, ped = 's_m_m_chemsec_01'},
+            {pos = vector3(126.87366, -730.3227, 242.15197), heading = 69.755676, ped = 's_m_m_chemsec_01'},
+        }
     },
 
     ['Trolleys'] = {
